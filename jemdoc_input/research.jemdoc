@@ -17,7 +17,7 @@ I am mainly interested in area of Signal/Image processing which have diverse app
 == Publications {{<a name="publications"></a>}}
 === Journal Articles
 - *Improved B{{<sub>0</sub>}}-distortion correction in diffusion MRI using interlaced q-space sampling and constrained reconstruction* \n
-!C Bhushan!, AA Joshi, RM Leahy, JP Haldar \n
+_C Bhushan_, AA Joshi, RM Leahy, JP Haldar \n
 Magnetic Resonance in Medicine 2013. In Press. \n
 [javascript:cite('mrm2013epicorrection'); Abstract] ~ {{<a href="http://dx.doi.org/10.1002/mrm.25026" class='external'>DOI Link</a>}} ~ {{<a href="http://www.ncbi.nlm.nih.gov/pubmed/24464424" class='external'>PubMed ID: 24464424</a>}}
 ~~~
@@ -32,7 +32,7 @@ Magnetic Resonance in Medicine 2013. In Press. \n
 ~~~
 
 - *Investigating neuromagnetic brain responses against chromatic flickering stimuli by Wavelet entropies* \n
-M Bhagat, !C Bhushan!, G Saha, S Shimjo, K Watanabe, J Bhattacharya \n
+M Bhagat, _C Bhushan_, G Saha, S Shimjo, K Watanabe, J Bhattacharya \n
 PLoS ONE 4(9): e7173.doi:10.1371/journal.pone.0007173, September 2009 \n
 [javascript:cite('plosoneChromaticFlicker'); Abstract] ~ {{<a href="http://dx.doi.org/10.1371/journal.pone.0007173" class='external'>DOI Link</a>}} ~ {{<a href="http://www.ncbi.nlm.nih.gov/pubmed/19779630" class='external'>PubMed ID: 19779630</a>}}
 ~~~
@@ -47,7 +47,7 @@ PLoS ONE 4(9): e7173.doi:10.1371/journal.pone.0007173, September 2009 \n
 
 === Conference Proceedings
 - *INVERSION: A robust method for co-registration of MPRAGE and diffusion MRI images* \n
-!C Bhushan!, JP Haldar, AA Joshi, DW Shattuck, RM Leahy \n
+_C Bhushan_, JP Haldar, AA Joshi, DW Shattuck, RM Leahy \n
 Joint Annual Meeting ISMRM-ESMRMB, Milan, Italy, 2014, p. 2583 \n
 [javascript:cite('ismrm2014INVERSION'); Abstract] ~ {{<a href="http://neuroimage.usc.edu/~chitresh/papers/bhushan_2014_INVERSION_ISMRM.pdf" class='pdf'>PDF</a>}} ~ {{<a href="http://neuroimage.usc.edu/~chitresh/papers/bhushan_2014_INVERSION_ISMRM_poster.pdf" class='pdf'>Poster</a>}}
 ~~~
@@ -59,17 +59,17 @@ Accurate registration between MPRAGE and diffusion MRI images is essential for m
 ~~~
 
 - *Estimation of cortical thickness from T1-weighted MRI images using tissue fractions* \n
-AA Joshi, !C Bhushan!, DW Shattuck, RM Leahy \n
+AA Joshi, _C Bhushan_, DW Shattuck, RM Leahy \n
 20th Annual Meeting of the Organization for Human Brain Mapping (OHBM), Hamburg, 2014. In Press. \n
 Link ~ PDF
 
 - *Registration-based distortion and intensity correction in fMRI* \n
-M Chambers, !C. Bhushan!, T Pirnia, K Narr, JP Haldar, RM Leahy, DW Shattuck \n
+M Chambers, _C. Bhushan_, T Pirnia, K Narr, JP Haldar, RM Leahy, DW Shattuck \n
 20th Annual Meeting of the Organization for Human Brain Mapping (OHBM), Hamburg, 2014. In Press. \n
 Link ~ PDF
 
 - *Accelerating data acquisition for reversed-gradient distortion correction in diffusion MRI: A constrained reconstruction approach* \n
-!C Bhushan!, AA Joshi, RM Leahy, JP Haldar \n
+_C Bhushan_, AA Joshi, RM Leahy, JP Haldar \n
 21st Scientific Meeting of International Society for Magnetic Resonance in Medicine (ISMRM), Salt Lake City, 2013, p. 55 \n
 Recipient of *[http://neuroimage.usc.edu/~chitresh/papers/ISMRM13_award_chitresh.pdf Magna Cum Laude ISMRM Merit Award]* \n
 [javascript:cite('ismrm2013epicorrection'); Abstract] ~ {{<a href="http://neuroimage.usc.edu/~chitresh/papers/ismrm_2013_EPI_distortion_correction.pdf" class='pdf'>PDF</a>}} ~ {{<a href="http://cds.ismrm.org/protected/13MPresentations/0055/" class='external'>Presentation Video (Login required)</a>}}
@@ -82,7 +82,7 @@ EPI-based diffusion MRI suffers from localized distortion artifacts in the prese
 ~~~
 
 - *A multimodal investigation of neuronal\/axonal integrity using structural T1-weighted imaging, diffusion tensor imaging, and H1 MR spectroscopy* \n
-S Choi, AA Joshi, !C Bhushan!, DW Shattuck, RM Leahy, H Damasio, A Panigrahy and JL Wisnowski \n
+S Choi, AA Joshi, _C Bhushan_, DW Shattuck, RM Leahy, H Damasio, A Panigrahy and JL Wisnowski \n
 21st Scientific Meeting of International Society for Magnetic Resonance in Medicine (ISMRM), Salt Lake City, 2013, p. 1951 \n
 [javascript:cite('ismrm2013multimodalanalysis'); Abstract] ~ {{<a href="http://neuroimage.usc.edu/~chitresh/papers/ismrm_2013_multimodalanalysis.pdf" class='pdf'>PDF</a>}}
 ~~~
@@ -94,15 +94,15 @@ Multimodal magnetic resonance (MR) imaging is increasingly becoming the standard
 ~~~
 
 - *Altered orbitofrontal tissue microstructure in patients with chronic anterior temporal lobe lesions* \n
-S Choi, !C Bhushan!, AA Joshi, K Raphel, D Tranel, DW Shattuck, JP Haldar, RM Leahy, H Damasio, JL Wisnowski \n
+S Choi, _C Bhushan_, AA Joshi, K Raphel, D Tranel, DW Shattuck, JP Haldar, RM Leahy, H Damasio, JL Wisnowski \n
 19th Annual Meeting of the Organization for Human Brain Mapping (OHBM), Seattle, 2013, p. 3781 \n{{<a href="http://neuroimage.usc.edu/~chitresh/papers/choi_2013_altered_orbitofrontal_DTI_OHBM_poster.pdf" class='pdf'>Poster</a>}}
 
 - *New BrainSuite13 tools for image segmentation, registration , connectivity analysis and visualization* \n
-DW Shattuck, AA Joshi, JP Haldar, !C Bhushan!, S Choi, AC Krause, JL Wisnowski, H Damasio, AW Toga, RM Leahy \n
+DW Shattuck, AA Joshi, JP Haldar, _C Bhushan_, S Choi, AC Krause, JL Wisnowski, H Damasio, AW Toga, RM Leahy \n
 19th Annual Meeting of the Organization for Human Brain Mapping (OHBM), Seattle, 2013, p. 1688 \n{{<a href="http://brainsuite.org/" class='external'>Software Link</a>}}
 
 - *Tools for brain image segmentation, registration, and connectivity analysis* \n
-DW Shattuck, AA Joshi, JP Haldar, !C Bhushan!, S Choi, AC Krause, JL Wisnowski, AW Toga and RM Leahy \n
+DW Shattuck, AA Joshi, JP Haldar, _C Bhushan_, S Choi, AC Krause, JL Wisnowski, AW Toga and RM Leahy \n
 21st Scientific Meeting of International Society for Magnetic Resonance in Medicine (ISMRM), Salt Lake City, 2013, p. 2691 \n
 [javascript:cite('ismrm2013brainsuite'); Abstract] ~ {{<a href="http://neuroimage.usc.edu/~chitresh/papers/shattuck_2013_BrainSuite_ISMRM.pdf" class='pdf'>PDF</a>}} ~ {{<a href="http://brainsuite.org/wp-content/uploads/2013/04/shattuck_ismrm13_poster2691_brainsuite.pdf" class='pdf'>Poster</a>}} ~ {{<a href="http://brainsuite.org/" class='external'>Software Link</a>}}
 ~~~
@@ -126,7 +126,7 @@ Post stroke upper extremity (UE) motor impairment has been associated with micro
 ~~~
 
 - *Correcting susceptibility-induced distortion in diffusion-weighted MRI using constrained nonrigid registration* \n
-!C Bhushan!, JP Haldar, AA Joshi, RM Leahy \n
+_C Bhushan_, JP Haldar, AA Joshi, RM Leahy \n
 Asia-Pacific Signal & Information Processing Association Annual Summit and Conference (APSIPA ASC), pp.1-9, 3-6 Dec 2012 \n
 *Invited Presentation* \n
 [javascript:cite('apsipa2012'); Abstract] ~ {{<a href="http://neuroimage.usc.edu/~chitresh/papers/apsipa_2012.pdf" class='pdf'>PDF</a>}} ~ {{<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6412009" class='external'>IEEE Xplore</a>}} ~ {{<a href="http://brainsuite.org/processing/diffusion/" class='external'>Software Implementation</a>}}
@@ -139,7 +139,7 @@ Echo Planar Imaging (EPI) is the standard pulse sequence used in fast diffusion-
 ~~~
 
 - *ROBBIT: An open source simulator for education in Robotics* \n
-G Antonelli, F Arrichiello, !C Bhushan!, S Chiaverini, and S Purkayasth \n
+G Antonelli, F Arrichiello, _C Bhushan_, S Chiaverini, and S Purkayasth \n
 Proceedings MATHMOD 09 Vienna; ARGESIM Reports, 35 (2009), ISBN: 978-3-901608-35-3, February 2009 \n
 [javascript:cite('robbitAbstract'); Abstract] ~ {{<a href="http://neuroimage.usc.edu/~chitresh/papers/ROBBIT_MATHMOD_09.pdf" class='pdf'>PDF</a>}}
 ~~~
@@ -180,7 +180,7 @@ The BFC correction tool is a graphical user interface for manually guiding the b
 ~~~
 {}{raw}
 <script type="text/javascript">
-<!--
+<_--
 //Get array of all anchors in the layout-content table cell
 var td=document.getElementById('layout-content');
 var anchs=td.getElementsByTagName('a');
@@ -190,7 +190,7 @@ var patt1 = /javascript:cite\(\'.*\'\)/;
 for(var	i=0;i<anchs.length;i++) {
     a=anchs[i];
     //If the anchor contains a cite add event listeners
-    if(a.href.search(patt1)!=-1) {
+    if(a.href.search(patt1)_=-1) {
        a.addEventListener('mouseover',bibshow,false);
        a.addEventListener('mouseout',bibhide,false);
     }
