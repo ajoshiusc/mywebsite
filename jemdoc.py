@@ -26,21 +26,22 @@ import sys
 import os
 import re
 import time
-import StringIO
+# import StringIO
 from subprocess import *
 import tempfile
+import six
 
 def info():
-  print __doc__
-  print 'Platform: ' + sys.platform + '.'
-  print 'Python: %s, located at %s.' % (sys.version[:5], sys.executable)
-  print 'Equation support:',
+  print (__doc__)
+  print ('Platform: ' + sys.platform + '.')
+  print ('Python: %s, located at %s.' % (sys.version[:5], sys.executable))
+  print ('Equation support:',)
   (supported, message) = testeqsupport()
   if supported:
-    print 'yes.'
+    print ('yes.')
   else:
-    print 'no.'
-  print message
+    print ('no.')
+  print (message)
 
 def testeqsupport():
   supported = True
@@ -127,7 +128,7 @@ def showhelp():
     else:
       b += l
 
-  print b
+  print (b)
 
 def standardconf():
   a = """[firstbit]
@@ -293,7 +294,7 @@ def parseconf(cns):
   syntax = {}
   warn = False # jem. make configurable?
   # manually add the defaults as a file handle.
-  fs = [StringIO.StringIO(standardconf())]
+  fs = [six.StringIO(standardconf())]
   for sname in cns:
     fs.append(open(sname, 'rb'))
 
@@ -990,7 +991,7 @@ def geneq(f, eq, dpi, wl, outname):
       if os.path.exists(eqname) and eqname in eqdepths:
         return (eqdepths[eqname], eqname)
     except IOError:
-      print 'eqdepthcache read failed.'
+      print ('eqdepthcache read failed.')
 
   # Open tex file.
   tempdir = tempfile.gettempdir()
@@ -1000,7 +1001,7 @@ def geneq(f, eq, dpi, wl, outname):
 
   preamble = '\documentclass{article}\n'
   for p in f.eqpackages:
-    preamble += '\usepackage{%s}\n' % p
+    preamble += "\\usepackage{%s}\n" % p
   for p in f.texlines:
     # Replace \{ and \} in p with { and }.
     # XXX hack.
@@ -1027,7 +1028,7 @@ def geneq(f, eq, dpi, wl, outname):
     rc = p.wait()
     if rc != 0:
       for l in p.stdout.readlines():
-        print '  ' + l.rstrip()
+        print ('  ' + l.rstrip())
       exts.remove('.tex')
       raise Exception('latex error')
 
@@ -1037,7 +1038,7 @@ def geneq(f, eq, dpi, wl, outname):
     p = Popen(dvicmd, shell=True, stdout=PIPE, stderr=PIPE)
     rc = p.wait()
     if rc != 0:
-      print p.stderr.readlines()
+      print(p.stderr.readlines())
       raise Exception('dvipng error')
     depth = int(p.stdout.readlines()[-1].split('=')[-1])
   finally:
@@ -1054,7 +1055,7 @@ def geneq(f, eq, dpi, wl, outname):
       dc.write(eqname + ' ' + str(depth) + '\n')
       dc.close()
     except IOError:
-      print 'eqdepthcache update failed.'
+      print ('eqdepthcache update failed.')
   return (depth, eqname)
 
 def dashlist(f, ordered=False):
@@ -1194,7 +1195,7 @@ def codeblock(f, g):
   if raw:
     return
   elif ext_prog:
-    print 'filtering through %s...' % ext_prog
+    print ('filtering through %s...' % ext_prog)
 
     output,_ = Popen(ext_prog, shell=True, stdin=PIPE,
                      stdout=PIPE).communicate(buff)
@@ -1549,7 +1550,7 @@ def main():
     showhelp()
     raise SystemExit
   if sys.argv[1] == '--show-config':
-    print standardconf()
+    print (standardconf())
     raise SystemExit
   if sys.argv[1] == '--version':
     info()
