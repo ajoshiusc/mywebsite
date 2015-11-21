@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{e6f3772d-7c87-450d-806f-f31c9287e430}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>jemdoc.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+    <CommandLineArguments>-c mysite.conf index.jemdoc</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="css\example.css" />
+    <Content Include="css\exp.css" />
+    <Content Include="css\green.css" />
+    <Content Include="css\jacob.css" />
+    <Content Include="css\jemdoc.css" />
+    <Content Include="css\nolines.css" />
+    <Content Include="css\page.css" />
+    <Content Include="css\prob.css" />
+    <Content Include="css\table.css" />
+    <Content Include="css\white.css" />
+    <Content Include="example\jemdoc.css" />
+    <Content Include="example\mathjax.html" />
+    <Content Include="index.html" />
+    <Content Include="jemdoc.css" />
+    <Content Include="mathjax.html" />
+    <Content Include="www\cheatsheet.html" />
+    <Content Include="www\dist\jemdoc.css" />
+    <Content Include="www\index.html" />
+    <Content Include="www\latex.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="jemdoc.py" />
+    <Compile Include="latexmath2png.py" />
+    <Compile Include="www\dist\jemdoc.py" />
+    <Compile Include="www\procexample.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css" />
+    <Folder Include="example" />
+    <Folder Include="www" />
+    <Folder Include="www\dist" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
