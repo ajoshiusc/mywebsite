@@ -1,18 +1,18 @@
 # jemdoc: menu{MENUresearch}{research.html},fwtitle,notime,addcss{bibover.css},addjs{biboverMini},addcss{talk_tooltip.css}
-= Chitresh Bhushan -- Research
+= Anand Joshi -- Research
 
 == Research Interest
-
-~~~
-{}{raw}
-<table class="imgtable" style="margin-bottom:-2em;"><tr>
-<td style="vertical-align:top; text-align:justify">
-I am mainly interested in area of Signal/Image processing which have diverse applications. During my graduate studies at USC, I have been involved with development of techniques for multimodal <a href="https://www.google.com/search?q=brain+imaging">brain imaging</a> using <a href="http://en.wikipedia.org/wiki/Magnetic_resonance_imaging">Magnetic Resonance Imaging (MRI)</a>.</p>
-<p>During my undergraduate studies, I worked on various projects related to Robotics, Medical Imaging and Computer Vision etc. See <a href="old-projects.html">undergraduate project page</a> for more details.
-</td>
-<td style="text-align:left; padding-left:40px;"><img src="images/webresearch.png" /></td>
-</tr></table>
-~~~
+My research is geared towards development of mathematical and computational methods for brain signal and image analysis.
+Recent advances in Neuroimaging have allowed researchers to study the brain in-vivo by imaging its structures and functions.
+Various imaging modalities such as Magnetic resonance imaging (MRI), functional Magnetic Resonance Imaging (fMRI),
+Electroencephalography (EEG), Diffusion Tensor Imaging (DTI) collect rich imaging data of structural and functional
+aspects of the brain. The functional data is often reconstructed on the cortical surface (cortex) of the brain,
+which represents the boundary between gray and white matter. Specifically, the human cortex can be modeled as a highly
+convoluted 2D surface, and therefore the data is modeled as non-flat (non-euclidean) images. The mathematical and computational
+challenges in the analysis of this data has led to the development of novel and interesting image processing theory and algorithms,
+that use partial differential equations (PDEs) as well as differential and Riemannian geometry. My PhD work was focused on
+development of novel geometric techniques for image analysis that accounts for the non-euclidean geometry of the cortex while
+performing registration and subsequent signal processing of anatomical and functional signals.
 
 == Publications {{<a name="publications"></a>}}
 === Journal Articles

@@ -1,30 +1,21 @@
-# jemdoc: menu{MENU}{index.html},fwtitle,notime
-= Chitresh Bhushan
-
-#~~~
-#{image}{raw}
-#<div style="float: right; padding-left: 25px; padding-bottom: 15px; width: 221px; text-align: center;"><img alt="Chitresh's oil-paint image" src="images/chitresh_oil.gif" align="center" />
-#<br />
-#<a href="oil-paint.html">Oil-paint</a> effect</div>
-#~~~
+# jemdoc: menu{MENU}{index.html},notime
+# jemdoc: addcss{person.css}, showsource
+=Anand Joshi's Homepage
 
 ~~~
-{}{img_left}{images/c5.jpg}{Chitresh}{}{}{}
-*Chitresh Bhushan* \n
-Ph.D. Candidate \n
+{}{img_left}{Anand_me.jpg}{Anand}{150}{}{}
+*Anand A Joshi* \n
+Research Assistant Professor \n
 [http://neuroimage.usc.edu/ Biomedical Imaging Group] \n
 [http://ee.usc.edu/ Ming Hsieh Department of Electrical Engineering] \n
 [http://usc.edu/ University of Southern California] (USC) \n\n
-Advisor: [http://ee.usc.edu/faculty_staff/faculty_directory/leahy.htm Dr. Richard M. Leahy] \n
 
-#{{e-mail: <img alt=" c b h u s h a n " src="images/1.png" style="vertical-align: -3px"/><img alt=" @ u s c . e d u " src="images/2.png"  style="vertical-align: -3px" \><br />}}
-
-{{e-mail: <img alt=" cbhushan " src="images/1n.png" style="vertical-align: -3px"/><img alt=" @ usc.edu " src="images/2n.png"  style="vertical-align: -3px" \>, <img alt=" chitresh.bhushan " src="images/3n.png" style="vertical-align: -3px"/><img alt=" @ gmail.com " src="images/4n.png"  style="vertical-align: -5px" \><br />}}
+{{e-mail: ajoshi@sipi.usc.edu }}
 
 
 
 Snail-mail:\n
-3740 McClintock Ave, EEB 400\n
+3740 McClintock Ave, EEB 426\n
 Los Angeles, CA 90089 \n
 
 ~~~
