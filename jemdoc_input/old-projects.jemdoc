@@ -1,0 +1,73 @@
+# jemdoc: menu{MENU}{old-projects.html},fwtitle,notime
+= Chitresh Bhushan -- Undergraduate Projects
+
+== Undergraduate Projects
+
+~~~
+{Investigation of Photosensitive Epilepsy ~~ (July'07 - December'08)}
+*Guide:* Dr. Joydeep Bhattacharya, Reader, Goldsmiths, University of London, UK and Prof. Goutam Saha, Dept. of Electronics and Electrical Communication Engineering, IIT Kharagpur, India
+
+We studied the photosensitivity of the human brain against three types of chromatic flickering stimuli by recording MEG responses from nine adult controls, an unmedicated patient, a medicated patient, and two controls age-matched with patients. Dynamical complexities of MEG signals were investigated by a family of wavelet entropies. In particular, we found that as compared to the unmedicated patient, controls showed significantly larger wavelet entropy values. We also found that Renyi entropy is the most powerful feature for the participant classification.
+
+Our results suggest that when perturbed by potentially epileptic-triggering stimulus, healthy human brain manages to maintain a non-deterministic, possibly nonlinear state, with high degree of disorder, but an epileptic brain represents a highly ordered state which making it prone to hyper-excitation. Further, certain colour combination was found to be more threatening than other combinations.
+
+The study resulted in a journal paper titled "Investigating Neuromagnetic Brain Responses against Chromatic Flickering Stimuli by Wavelet Entropies", published in Public Library of Science (PLoS ONE). ~ {{<a href="http://www.plosone.org/article/info:doi/10.1371/journal.pone.0007173" class='external'>Link</a>}}
+~~~
+
+~~~
+{Real-Time Edge Detection on 3D Range Data ~~ (May - July, 2008)}
+*Guide:* Dr. Michael Bosse, Senior Research Scientist, Automation Systems Lab, QCAT, CSIRO ICT Center, Brisbane, Australia
+
+Developed a system for real-time edge detection on 3D range data. The range data was produced by a laser sensor (LIDAR)  which produced 70 scans per second and the LIDAR itself was rotating at 0.5 rounds per minute. The data generated was first used to produce the 3D point cloud and then to detect the edges in real-time. [http://www.youtube.com/watch?v=eD4Xct2XVf0 Here] is a small video which shows the spinning laser sensor and the 3D point cloud generated.
+
+Several statistical, mathematical, and image processing techniques like  fast median filtering, eigen decomposition, Laplacian of gaussian etc. were used to find 3D coordinates, pose, normals, and weights at each point of the  point-cloud generated. These information were used to identify the edge points and the edges lying on the same zero-crossing of second derivative of range were joined together to form edge lines. In order to achieve real-time processing, all the processing was concentrated on latest five scan lines and information from previous scan lines were used to join the edges.
+
+The algorithm was implemented in C\+\+. The edges produced in real-time can be used as prominent features to speed-up the processing of higher level tasks like mapping and navigation. ~ {{<a href="http://neuroimage.usc.edu/~chitresh/papers/CSIRO_talk_chitresh.pdf" class='pdf' target="_blank">Project-talk</a>}}
+~~~
+
+~~~
+{Robbit: 3D Simulator for Robots   (February - September, 2007)}
+*Guide:* Prof. Antonelli Gianluca, Department of Automation, Electromagnetism, University of Cassino, Italy
+
+Developed a software platform in C\+\+ to simulate the motion of multiple mobile robots and their surroundings. It helps users to acquire insights into the control design by, enabling users to design and implement customized control algorithms, write their own controllers, modify the environment, and visualize their effects on different types of robots. Moreover, the software is written for the general case of multiple robots acting on the same environment, allowing its use to test more complex algorithms like navigation or exploration algorithms and advanced concepts such as coordinated control. It is not designed to provide a real world simulation and it is kept simple, modular and extensible for educational purpose. If needed, users can easily add obstacles, sensors or define a new robots.
+
+The software was later named "Robbit" and is released under the GNU General Public License (GPL), so that it can be used as a teaching tool for graduate, master thesis, and PhD students in fields of robotics, computer sciences, non-linear control, behavioral and cognitive sciences. Robbit is hosted on [http://sourceforge.net/projects/robbit/ sourceforge.net].
+
+A paper titled "ROBBIT: an Open Source Simulator for Education in Robotics", was presented in MATHMOD 2009 - 6th Vienna International Conference on Mathematical Modelling. ~ {{<a href="http://neuroimage.usc.edu/~chitresh/papers/ROBBIT_MATHMOD_09.pdf" class='pdf' target="_blank">PDF</a>}}
+~~~
+
+~~~
+{Medical Expert System and Ultrasound Image Segmentation ~~ (August'08 - April'09)}
+*Guide:* Prof. Ajoy Kumar Ray, Head, School of Medical Science and Technology, IIT Kharagpur, India and Prof. Somnath Sengupta, Chairman,  Kalpana Chaola Space Technology Cell, IIT Kharagpur, India
+
+Developed a prototype fuzzy medical expert system in a procedural language (C\+\+), which used fuzzy knowledge base and inference engine to reach at a conclusion. The procedural language was selected so that the expert system can be easily embedded on commonly available processors. A scheme was also proposed to automatically detect accurate contours in ultrasound images. Multiscale morphological method was used  to detect approximate gradients and to check over-segmentation in poor-quality ultrasound images prior to applying watershed segmentation. ~ {{<a href="http://neuroimage.usc.edu/~chitresh/papers/Ultrasound_image_report.pdf" class='pdf' target="_blank">PDF</a>}}
+~~~
+
+~~~
+{Detection and Analysis of Human Motion for Video Surveillance ~~ (July'09 - April'10)}
+*Guide:* Prof. Somnath Sengupta, Electronics & Electrical Communication Engineering, IIT Kharagpur, India
+
+Developed and implemented an algorithm to effectively detect and analyze human motion, in a video sequence, to classify human behavior. The current work involves human detection using silhouette and Blobs and behavior classification using stick figures and artificial neural networks.
+~~~
+
+
+== Term Projects / Term Papers
+~~~
+{A Statistics Based Variant of LZW Algorithm for Image and Data Compression ~~ (February - April 2008)}
+Proposed a variant of the LZW algorithm, for Image and Data Compression, which gives a preference to the most occurring contiguous symbol sequences, while adding these sequences into a fixed size dictionary. This proposed variant showed better compression than traditional LZW algorithm but with computational overheads. {{<a href="http://neuroimage.usc.edu/~chitresh/papers/LZW_Term_Paper.pdf"  class='pdf' target="_blank">Short report</a>}}
+~~~
+
+~~~
+{Text Dependent Speaker Recognition Using Artificial Neural Networks ~~ (October 2008)}
+Developed an artificial neural network using linear predictive coding and power spectral density as features for text dependent speaker recognition.
+~~~
+
+~~~
+{Oil Paint Filter ~~ (July 2009)}
+Developed and implemented an algorithm to convert any digital image to give oil paint effect by finding a representative color for small patched region. ~ [oil-paint.html Project Link]
+~~~
+
+~~~
+{Jigsaw ~~ (December'06 - February'07)}
+Developed and implemented an algorithm in C++ for solving basic Jigsaw, having only rectangular and triangular pieces.
+~~~

@@ -1,0 +1,200 @@
+# jemdoc: menu{MENUresearch}{research.html},fwtitle,notime,addcss{bibover.css},addjs{biboverMini},addcss{talk_tooltip.css}
+= Chitresh Bhushan -- Research
+
+== Research Interest
+
+~~~
+{}{raw}
+<table class="imgtable" style="margin-bottom:-2em;"><tr>
+<td style="vertical-align:top; text-align:justify">
+I am mainly interested in area of Signal/Image processing which have diverse applications. During my graduate studies at USC, I have been involved with development of techniques for multimodal <a href="https://www.google.com/search?q=brain+imaging">brain imaging</a> using <a href="http://en.wikipedia.org/wiki/Magnetic_resonance_imaging">Magnetic Resonance Imaging (MRI)</a>.</p>
+<p>During my undergraduate studies, I worked on various projects related to Robotics, Medical Imaging and Computer Vision etc. See <a href="old-projects.html">undergraduate project page</a> for more details.
+</td>
+<td style="text-align:left; padding-left:40px;"><img src="images/webresearch.png" /></td>
+</tr></table>
+~~~
+
+== Publications {{<a name="publications"></a>}}
+=== Journal Articles
+- *Improved B{{<sub>0</sub>}}-distortion correction in diffusion MRI using interlaced q-space sampling and constrained reconstruction* \n
+!C Bhushan!, AA Joshi, RM Leahy, JP Haldar \n
+Magnetic Resonance in Medicine 2013. In Press. \n
+[javascript:cite('mrm2013epicorrection'); Abstract] ~ {{<a href="http://dx.doi.org/10.1002/mrm.25026" class='external'>DOI Link</a>}} ~ {{<a href="http://www.ncbi.nlm.nih.gov/pubmed/24464424" class='external'>PubMed ID: 24464424</a>}}
+~~~
+{}{raw}
+<div class="bibover noshow" id="bibover_mrm2013epicorrection">
+<div class="cross"><a href="javascript:closeCite('mrm2013epicorrection')">x</a></div>
+<b>Purpose:</b> To enable high-quality correction of susceptibility-induced geometric distortion artifacts in diffusion MRI images without increasing scan time.<br/><br/>
+<b>Theory and Methods:</b> A new method for distortion correction is proposed based on subsampling a generalized version of the state-of-the-art reversed-gradient distortion correction method. Rather than acquire each q-space sample multiple times with different distortions (as in the conventional reversed-gradient method), we sample each q-space point once with an interlaced sampling scheme that measures different distortions at different q-space locations. Distortion correction is achieved using a novel constrained reconstruction formulation that leverages the smoothness of diffusion data in q-space.<br/><br/>
+<b>Results:</b> The effectiveness of the proposed method is demonstrated with simulated and in vivo diffusion MRI data. The proposed method is substantially faster than the reversed-gradient method, and can also provide smaller intensity errors in the corrected images and smaller errors in derived quantitative diffusion parameters.<br/><br/>
+<b>Conclusion:</b> The proposed method enables state-of-the-art distortion correction performance without increasing data acquisition time.
+</div>
+~~~
+
+- *Investigating neuromagnetic brain responses against chromatic flickering stimuli by Wavelet entropies* \n
+M Bhagat, !C Bhushan!, G Saha, S Shimjo, K Watanabe, J Bhattacharya \n
+PLoS ONE 4(9): e7173.doi:10.1371/journal.pone.0007173, September 2009 \n
+[javascript:cite('plosoneChromaticFlicker'); Abstract] ~ {{<a href="http://dx.doi.org/10.1371/journal.pone.0007173" class='external'>DOI Link</a>}} ~ {{<a href="http://www.ncbi.nlm.nih.gov/pubmed/19779630" class='external'>PubMed ID: 19779630</a>}}
+~~~
+{}{raw}
+<div class="bibover noshow" id="bibover_plosoneChromaticFlicker">
+<div class="cross"><a href="javascript:closeCite('plosoneChromaticFlicker')">x</a></div>
+<b>Background:</b> Photosensitive epilepsy is a type of reflexive epilepsy triggered by various visual stimuli including colourful ones. Despite the ubiquitous presence of colorful displays, brain responses against different colour combinations are not properly studied.<br/><br/>
+<b>Methodology/Principal Findings:</b> Here, we studied the photosensitivity of the human brain against three types of chromatic flickering stimuli by recording neuromagnetic brain responses (magnetoencephalogram, MEG) from nine adult controls, an unmedicated patient, a medicated patient, and two controls age-matched with patients. Dynamical complexities of MEG signals were investigated by a family of wavelet entropies. Wavelet entropy is a newly proposed measure to characterize large scale brain responses, which quantifies the degree of order/disorder associated with a multi-frequency signal response. In particular, we found that as compared to the unmedicated patient, controls showed significantly larger wavelet entropy values. We also found that Renyi entropy is the most powerful feature for the participant classification. Finally, we also demonstrated the effect of combinational chromatic sensitivity on the underlying order/disorder in MEG signals.<br/><br/>
+<b>Conclusions/Significance:</b> Our results suggest that when perturbed by potentially epileptic-triggering stimulus, healthy human brain manages to maintain a non-deterministic, possibly nonlinear state, with high degree of disorder, but an epileptic brain represents a highly ordered state which making it prone to hyper-excitation. Further, certain colour combination was found to be more threatening than other combinations.
+</div>
+~~~
+
+=== Conference Proceedings
+- *INVERSION: A robust method for co-registration of MPRAGE and diffusion MRI images* \n
+!C Bhushan!, JP Haldar, AA Joshi, DW Shattuck, RM Leahy \n
+Joint Annual Meeting ISMRM-ESMRMB, Milan, Italy, 2014, p. 2583 \n
+[javascript:cite('ismrm2014INVERSION'); Abstract] ~ {{<a href="http://neuroimage.usc.edu/~chitresh/papers/bhushan_2014_INVERSION_ISMRM.pdf" class='pdf'>PDF</a>}} ~ {{<a href="http://neuroimage.usc.edu/~chitresh/papers/bhushan_2014_INVERSION_ISMRM_poster.pdf" class='pdf'>Poster</a>}}
+~~~
+{}{raw}
+<div class="bibover noshow" id="bibover_ismrm2014INVERSION">
+<div class="cross"><a href="javascript:closeCite('ismrm2014INVERSION')">x</a></div>
+Accurate registration between MPRAGE and diffusion MRI images is essential for many multi-modal neuroimaging studies. We describe a new method, INVERSION (<b>I</b>nverse contrast <b>N</b>ormalization for <b>VER</b>y <b>S</b>imple registrat<b>ION</b>), that robustly aligns MPRAGE and b=0 s/mm<sup>2</sup> images by leveraging known "inverted" contrast relationships between these two modalities. We transform the contrast of the b=0 s/mm<sup>2</sup> image to match the contrast of the MPRAGE image, and achieve consistently accurate registration using the simple sum of squared differences cost function. Unlike most multi-modal registration approaches, INVERSION uses a locally smooth, and frequently convex, cost function that is relatively easy to numerically optimize.
+</div>
+~~~
+
+- *Estimation of cortical thickness from T1-weighted MRI images using tissue fractions* \n
+AA Joshi, !C Bhushan!, DW Shattuck, RM Leahy \n
+20th Annual Meeting of the Organization for Human Brain Mapping (OHBM), Hamburg, 2014. In Press. \n
+Link ~ PDF
+
+- *Registration-based distortion and intensity correction in fMRI* \n
+M Chambers, !C. Bhushan!, T Pirnia, K Narr, JP Haldar, RM Leahy, DW Shattuck \n
+20th Annual Meeting of the Organization for Human Brain Mapping (OHBM), Hamburg, 2014. In Press. \n
+Link ~ PDF
+
+- *Accelerating data acquisition for reversed-gradient distortion correction in diffusion MRI: A constrained reconstruction approach* \n
+!C Bhushan!, AA Joshi, RM Leahy, JP Haldar \n
+21st Scientific Meeting of International Society for Magnetic Resonance in Medicine (ISMRM), Salt Lake City, 2013, p. 55 \n
+Recipient of *[http://neuroimage.usc.edu/~chitresh/papers/ISMRM13_award_chitresh.pdf Magna Cum Laude ISMRM Merit Award]* \n
+[javascript:cite('ismrm2013epicorrection'); Abstract] ~ {{<a href="http://neuroimage.usc.edu/~chitresh/papers/ismrm_2013_EPI_distortion_correction.pdf" class='pdf'>PDF</a>}} ~ {{<a href="http://cds.ismrm.org/protected/13MPresentations/0055/" class='external'>Presentation Video (Login required)</a>}}
+~~~
+{}{raw}
+<div class="bibover noshow" id="bibover_ismrm2013epicorrection">
+<div class="cross"><a href="javascript:closeCite('ismrm2013epicorrection')">x</a></div>
+EPI-based diffusion MRI suffers from localized distortion artifacts in the presence of B<sub>0</sub> inhomogeneity, which can cause problems in multi-modal image analysis and when estimating quantitative diffusion parameters. These distortions can be partially corrected with measured field maps, though performance improves substantially if each image is acquired twice with reversed phase encoding gradients (at the expense of doubling the scan time). In this work, we propose a novel acquisition and reconstruction strategy that leverages a constrained reconstruction formulation to enable accurate distortion correction with similar performance to the reversed gradient method, but without increasing the scan time.
+</div>
+~~~
+
+- *A multimodal investigation of neuronal\/axonal integrity using structural T1-weighted imaging, diffusion tensor imaging, and H1 MR spectroscopy* \n
+S Choi, AA Joshi, !C Bhushan!, DW Shattuck, RM Leahy, H Damasio, A Panigrahy and JL Wisnowski \n
+21st Scientific Meeting of International Society for Magnetic Resonance in Medicine (ISMRM), Salt Lake City, 2013, p. 1951 \n
+[javascript:cite('ismrm2013multimodalanalysis'); Abstract] ~ {{<a href="http://neuroimage.usc.edu/~chitresh/papers/ismrm_2013_multimodalanalysis.pdf" class='pdf'>PDF</a>}}
+~~~
+{}{raw}
+<div class="bibover noshow" id="bibover_ismrm2013multimodalanalysis">
+<div class="cross"><a href="javascript:closeCite('ismrm2013multimodalanalysis')">x</a></div>
+Multimodal magnetic resonance (MR) imaging is increasingly becoming the standard in clinical practice and research yielding synergistic information regarding brain structure and brain function. We examined the relations among the absolute concentration of of n-acetyl-aspartate (NAA; quantitated from MR spectroscopy), fractional anisotropy (FA) and diffusivity metrics (ADC, AD, RD) calculated from DTI scans and volumetric and cortical surface area measurements computed from T1-weighted scans in standardized GM and WM regions. Our most significant findings were of associations between NAA and both FA and RD metrics in the white matter and suggest that together these metrics reflect neuronal/axonal packing density.
+</div>
+~~~
+
+- *Altered orbitofrontal tissue microstructure in patients with chronic anterior temporal lobe lesions* \n
+S Choi, !C Bhushan!, AA Joshi, K Raphel, D Tranel, DW Shattuck, JP Haldar, RM Leahy, H Damasio, JL Wisnowski \n
+19th Annual Meeting of the Organization for Human Brain Mapping (OHBM), Seattle, 2013, p. 3781 \n{{<a href="http://neuroimage.usc.edu/~chitresh/papers/choi_2013_altered_orbitofrontal_DTI_OHBM_poster.pdf" class='pdf'>Poster</a>}}
+
+- *New BrainSuite13 tools for image segmentation, registration , connectivity analysis and visualization* \n
+DW Shattuck, AA Joshi, JP Haldar, !C Bhushan!, S Choi, AC Krause, JL Wisnowski, H Damasio, AW Toga, RM Leahy \n
+19th Annual Meeting of the Organization for Human Brain Mapping (OHBM), Seattle, 2013, p. 1688 \n{{<a href="http://brainsuite.org/" class='external'>Software Link</a>}}
+
+- *Tools for brain image segmentation, registration, and connectivity analysis* \n
+DW Shattuck, AA Joshi, JP Haldar, !C Bhushan!, S Choi, AC Krause, JL Wisnowski, AW Toga and RM Leahy \n
+21st Scientific Meeting of International Society for Magnetic Resonance in Medicine (ISMRM), Salt Lake City, 2013, p. 2691 \n
+[javascript:cite('ismrm2013brainsuite'); Abstract] ~ {{<a href="http://neuroimage.usc.edu/~chitresh/papers/shattuck_2013_BrainSuite_ISMRM.pdf" class='pdf'>PDF</a>}} ~ {{<a href="http://brainsuite.org/wp-content/uploads/2013/04/shattuck_ismrm13_poster2691_brainsuite.pdf" class='pdf'>Poster</a>}} ~ {{<a href="http://brainsuite.org/" class='external'>Software Link</a>}}
+~~~
+{}{raw}
+<div class="bibover noshow" id="bibover_ismrm2013brainsuite">
+<div class="cross"><a href="javascript:closeCite('ismrm2013brainsuite')">x</a></div>
+We describe a collection of software tools for jointly processing and visualizing structural and diffusion MRI of the brain. T1-weighted brain MRI are processed to extract models of the cortical surface. A brain atlas labeled with anatomical ROIs is registered to the subject data using a combined surface/volume registration procedure. Diffusion weighted images are processed to produce fiber tract models. The structural and diffusion results are combined to generate a brain connectivity map based on the set of anatomical ROIs. These tools can be applied using scripts or through a user interface that provides sophisticated interactive processing and visualization capabilities.
+</div>
+~~~
+
+- *Effects of rehabilitation post-stroke: DTI analysis of corticospinal tract characteristics using BrainSuite13* \n
+D Beroukhim, M Konersman, M Chong, AA Joshi, C Bhushan, DW Shattuck, JP Haldar RM Leahy, CJ Winstein \n
+Society for Neuroscience, San Diego, 2013 \n
+[javascript:cite('neuroscience2013poststroke'); Abstract] ~ {{<a href="http://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=61b86cd8-9e90-43dd-8c37-c82247da8e6a&cKey=a8331f8d-79df-463a-b742-b6b7332daaa3" class='external'>Link</a>}}
+~~~
+{}{raw}
+<div class="bibover noshow" id="bibover_neuroscience2013poststroke">
+<div class="cross"><a href="javascript:closeCite('neuroscience2013poststroke')">x</a></div>
+Post stroke upper extremity (UE) motor impairment has been associated with microstructural changes in corticospinal tract (CST) as measured by diffusion tensor imaging (DTI). It is not fully understood how well changes in DTI measures can predict motor recovery and correlate with functional motor changes following neurorehabilitation. This project is part of a larger phase I clinical trial in chronic stroke that aims to determine prospectively the dose of therapy that will lead to continued use of the UE after therapy has ended. Quantification of the CST in a lesioned brain requires a standardized method to identify the CST within and between subjects. Our purpose is twofold. First, to establish a sensitive and specific method to quantify changes in CST characteristics in lesioned brains associated with UE rehabilitation. Second, to investigate the relationship between CST diffusion metrics and initial UE impairment and motor performance changes after rehabilitation. Participants with chronic stroke completed DTI and motor impairment assessments before and after 12 sessions of a reproducible UE therapy program within 4 months. Imaging data were processed using BrainSuite13 (http://brainsuite.loni.ucla.edu) as follows: (i) diffusion images were corrected for susceptibility-induced geometric distortion and co-registered to structural T1-weighted images, (ii) the BrainSuite Atlas was registered to individual subject data to automatically label a set of cortical and subcortical regions of interest (ROIs), (iii) diffusion tensors were computed in the labeled anatomical space, (iv) the major white matter tracts were identified using deterministic tractography. The CST was identified using ROIs for the pons and posterior limb of the internal capsule. We have established a processing pipeline to quantify CST fractional anisotropy (FA) and mean diffusivity (MD). Preliminary results using this method indicate reduced hemispheric asymmetry of FA pre- to post- therapy correlating with improvement in UE motor ability, assessed by the Wolf Motor Function Test time score. Results from 6 patients will be presented to assess the sensitivity, specificity, and clinical usefulness of this approach in the study of focused rehabilitation for chronic stroke. We present a method to reliably identify and quantify changes in CST characteristics, using BrainSuite13 software. This method may prove useful for prospective identification of responders to intensive rehabilitation programs and for revealing mechanisms of neuroplasticity including the attenuation of hemispheric CST asymmetries in chronic stroke. 
+</div>
+~~~
+
+- *Correcting susceptibility-induced distortion in diffusion-weighted MRI using constrained nonrigid registration* \n
+!C Bhushan!, JP Haldar, AA Joshi, RM Leahy \n
+Asia-Pacific Signal & Information Processing Association Annual Summit and Conference (APSIPA ASC), pp.1-9, 3-6 Dec 2012 \n
+*Invited Presentation* \n
+[javascript:cite('apsipa2012'); Abstract] ~ {{<a href="http://neuroimage.usc.edu/~chitresh/papers/apsipa_2012.pdf" class='pdf'>PDF</a>}} ~ {{<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6412009" class='external'>IEEE Xplore</a>}} ~ {{<a href="http://brainsuite.org/processing/diffusion/" class='external'>Software Implementation</a>}}
+~~~
+{}{raw}
+<div class="bibover noshow" id="bibover_apsipa2012">
+<div class="cross"><a href="javascript:closeCite('apsipa2012')">x</a></div>
+Echo Planar Imaging (EPI) is the standard pulse sequence used in fast diffusion-weighted magnetic resonance imaging (MRI), but is sensitive to susceptibility-induced inhomogeneities in the main B0 magnetic field. In diffusion MRI of the human head, this leads to geometric distortion of the brain in reconstructed diffusion images and a resulting lack of correspondence with the high-resolution MRI scans that are used to define the subject anatomy. In this study, we propose and test an approach to estimate and correct this distortion using a non-linear registration framework based on mutual-information. We use an anatomical image as the registration-template and constrain the registration using spatial regularization and physics-based information about the characteristics of the distortion, without requiring any additional data collection. Results are shown for simulated and experimental data. The proposed method aligns diffusion images to the anatomical image with an error of 1-3 mm in most brain regions.
+</div>
+~~~
+
+- *ROBBIT: An open source simulator for education in Robotics* \n
+G Antonelli, F Arrichiello, !C Bhushan!, S Chiaverini, and S Purkayasth \n
+Proceedings MATHMOD 09 Vienna; ARGESIM Reports, 35 (2009), ISBN: 978-3-901608-35-3, February 2009 \n
+[javascript:cite('robbitAbstract'); Abstract] ~ {{<a href="http://neuroimage.usc.edu/~chitresh/papers/ROBBIT_MATHMOD_09.pdf" class='pdf'>PDF</a>}}
+~~~
+{}{raw}
+<div class="bibover noshow" id="bibover_robbitAbstract">
+<div class="cross"><a href="javascript:closeCite('robbitAbstract')">x</a></div>
+An open source software, named ROBBIT, aimed at the simulation of multiple mobile robots has been developed at the Universita degli Studi di Cassino, Italy together with students coming from the Indian Institute of Technology Kharagpur, India. The main project's objective was to develop a software platform with educational purposes in robotics, computer sciences, non-linear control, behavioral and cognitive sciences. Several potential applications have been identified in order to use this software as a teaching tool for graduate, master thesis and PhD students. ROBBIT is released under the GNU General Public License (GPL).
+</div>
+~~~
+
+
+== Talks {{<a name="talks"></a>}}
+- *"Distortion correction in diffusion MRI using interlaced q-space sampling and constrained reconstruction"* \n 
+PhD Student Seminar Series, Ming Hsieh Department of Electrical Engineering, USC, March 2014.\n{{<a href="http://vimeo.com/90048034" class="tooltip">Talk Video<span><img class="callout" src="images/callout.gif"><img src="images/thumb_MHI.jpg"></span></a>}} ~ {{<a href="http://neuroimage.usc.edu/~chitresh/papers/bhushan_2013_MHI_poster.pdf" class='pdf'>Poster</a>}}
+
+- *"Diffusion MRI data processing in BrainSuite"* \n 
+BrainSuite Training Workshop, University of California, Los Angeles, November 2013.\n{{<a href="http://brainsuite.org/wp-content/uploads/2013/11/BDP_UCLA_workshop.pdf" class='pdf'>Talk Slides</a>}}
+
+- *"BrainSuite Diffusion Pipeline"* \n
+BrainSuite Training Workshop, University of Southern California, Los Angeles, September 2013. \n{{<a href="http://brainsuite.org/uscworkshop2013/bdp/" class="tooltip">Talk Video<span><img class="callout" src="images/callout.gif"><img src="images/thumb_bdp.jpg"></span></a>}} ~ {{<a href="http://brainsuite.org/data/training-092813/BDP_cbhushan.pdf" class='pdf'>Talk Slides</a>}}
+
+- *"Accelerating Data Acquisition for Reversed-Gradient Distortion Correction in Diffusion MRI: A Constrained Reconstruction Approach"* \n
+21st Scientific Meeting of International Society for Magnetic Resonance in Medicine (ISMRM), Salt Lake City, April 2013. \n{{<a href="http://cds.ismrm.org/protected/13MPresentations/0055/" class="tooltip">Talk Video (ISMRM Login required)<span><img class="callout" src="images/callout.gif"><img src="images/thumb_ismrm.jpg"></span></a>}} ~ {{<a href="http://neuroimage.usc.edu/~chitresh/papers/ismrm_2013_EPI_distortion_correction.pdf" class='pdf'>PDF</a>}}
+
+- *"Correcting susceptibility-induced distortion in diffusion-weighted MRI using constrained nonrigid registration"* \n
+Asia-Pacific Signal & Information Processing Association Annual Summit and Conference (APSIPA ASC), Hollywood, December 2012.
+
+
+== Software Tools and Utilities {{<a name="software"></a>}}
+- *BrainSuite Diffusion Pipeline (BDP)* \n
+BrainSuite13 is a collection of image analysis tools designed to process structural and diffusion MRI images in a common framework. *BDP* includes tools for correction of geometric distortions in diffusion images and co-registeration of diffusion and anatomical images.\n {{<a href="http://brainsuite.org/processing/diffusion/" class='external'>Download & Documentation</a>}} ~ {{<a href="http://brainsuite.org/uscworkshop2013/bdp/" class="tooltip">Workshop Video<span><img class="callout" src="images/callout.gif"><img src="images/thumb_bdp.jpg"></span></a>}} ~ {{<a href="http://brainsuite.org/data/training-092813/BDP_cbhushan.pdf" class='pdf'>Workshop Slides</a>}}
+
+- *BFC Correction Tool* \n
+The BFC correction tool is a graphical user interface for manually guiding the bias-field correction in the T1-weighted MRI images. It is an addon to [http://brainsuite.org/ BrainSuite13's] bias-field correction in case the images requires more accurate bias-field correction. \n {{<a href="http://neuroimage.usc.edu/neuro/Resources/bfc_correction_tool" class='external'>More details and Download</a>}}
+
+\n
+
+~~~
+{}{raw}
+<script type="text/javascript">
+<!--
+//Get array of all anchors in the layout-content table cell
+var td=document.getElementById('layout-content');
+var anchs=td.getElementsByTagName('a');
+//Setup the regex pattern for finding cites
+var patt1 = /javascript:cite\(\'.*\'\)/;
+//Loop through all anchors
+for(var	i=0;i<anchs.length;i++) {
+    a=anchs[i];
+    //If the anchor contains a cite add event listeners
+    if(a.href.search(patt1)!=-1) {
+       a.addEventListener('mouseover',bibshow,false);
+       a.addEventListener('mouseout',bibhide,false);
+    }
+}
+-->
+</script>
+~~~

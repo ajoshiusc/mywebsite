@@ -1,0 +1,19 @@
+
+Redirect 301 /~cbhushan/publications.html http://www-scf.usc.edu/~cbhushan/research.html
+Redirect 301 /~cbhushan/projects.html http://www-scf.usc.edu/~cbhushan/profile.html
+Redirect 301 /~cbhushan/panorama.html http://neuroimage.usc.edu/~chitresh/panorama.html
+ErrorDocument 404 /~cbhushan/error.php
+
+Redirect 301 /~cbhushan/files/ROBBIT_MATHMOD_09.pdf http://neuroimage.usc.edu/~chitresh/papers/ROBBIT_MATHMOD_09.pdf
+Redirect 301 /~cbhushan/files/CSIRO_talk_chitresh.pdf http://neuroimage.usc.edu/~chitresh/papers/CSIRO_talk_chitresh.pdf
+Redirect 301 /~cbhushan/files/ISMRM13_award_chitresh.pdf http://neuroimage.usc.edu/~chitresh/papers/ISMRM13_award_chitresh.pdf
+Redirect 301 /~cbhushan/files/LZW_Term_Paper.pdf http://neuroimage.usc.edu/~chitresh/papers/LZW_Term_Paper.pdf
+Redirect 301 /~cbhushan/files/OilPaint.m http://neuroimage.usc.edu/~chitresh/files/OilPaint.m
+Redirect 301 /~cbhushan/files/Ultrasound_image_report.pdf http://neuroimage.usc.edu/~chitresh/papers/Ultrasound_image_report.pdf
+Redirect 301 /~cbhushan/files/apsipa_2012.pdf http://neuroimage.usc.edu/~chitresh/papers/apsipa_2012.pdf
+Redirect 301 /~cbhushan/files/ismrm_2013_EPI_distortion_correction.pdf http://neuroimage.usc.edu/~chitresh/papers/ismrm_2013_EPI_distortion_correction.pdf
+Redirect 301 /~cbhushan/files/ismrm_2013_multimodalanalysis.pdf http://neuroimage.usc.edu/~chitresh/papers/ismrm_2013_multimodalanalysis.pdf
+Redirect 301 /~cbhushan/images/sketch-market-place.jpg http://neuroimage.usc.edu/~chitresh/files/sketch-market-place.jpg
+Redirect 301 /~cbhushan/images/sketch-man.jpg http://neuroimage.usc.edu/~chitresh/files/sketch-man.jpg
+Redirect 301 /~cbhushan/images/colour_comp.jpg http://neuroimage.usc.edu/~chitresh/files/colour_comp.jpg
+

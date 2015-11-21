@@ -1,0 +1,24 @@
+div.noshow {display:none}
+div.bibover {
+ position: absolute;
+ margin-right:10%;
+ margin-top: 1em;
+ margin-bottom: 1em;
+ border: 2px solid silver;
+ padding: 0.6em 0.8em;
+ background:#ffffcc;
+ text-align: justify;
+}
+
+div.fixed {
+ border: 2px solid;
+}
+
+div.cross {
+ float: right;
+ margin-left: 1em;
+ margin-bottom: 1em;
+ font-family: monospace;
+ font-size:145%;
+ color:#000;
+}

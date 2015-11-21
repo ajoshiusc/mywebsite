@@ -1,49 +1,97 @@
-# jemdoc: menu{MENU}{index.html}, showsource
-= jemdoc -- light markup
-[http://stanford.edu/~jacobm/ Jacob Mattingley] ([jacobm@stanford.edu])
-
-jemdoc is a light text-based markup language designed for creating 
-websites. It takes a text file written with [example.html jemdoc markup], an
-optional configuration file and an optional menu file, and makes static websites
-that look something like this one, [http://cvxmod.net/ that one] or
-[http://www.stanford.edu/class/ee364a/ another one].
-
-jemdoc was inspired by [http://www.methods.co.nz/asciidoc/ AsciiDoc], which is a
-text document format. AsciiDoc is great, and lots of the ideas from AsciiDoc are
-copied in jemdoc. The main differences are that jemdoc is simpler (you could say
-deliberately feature poor) and has more consistent syntax.
-
-[download.html Download jemdoc.]
+# jemdoc: menu{MENU}{index.html}
+# jemdoc: addcss{person.css}, showsource
+= Anand Joshi
 
 ~~~
-Version +0.7.3+ was released on 2012-11-27 with some small bug fixes.
-See the [revision.html release notes].
+{}{img_left}{Anand.png}{Anand Joshi}
+[https://jemnz.com/ Jacob Mattingley], Ph.D.
+({{<a href="http://newzealand.com"><img src="nz.png" alt="NZ" /></a>}}) \n
+(Formerly) [http://www-ee.stanford.edu/ Department of Electrical Engineering]\n
+[http://www.stanford.edu/ Stanford University]\n\n
+Former advisor: [http://www.stanford.edu/~boyd/ Professor Stephen Boyd]
 ~~~
 
-[https://github.com/jem/jemdoc Contribute to jemdoc on github.]
+== Contact
+[www@jemnz.com]
+~~~
+{}{raw}
+<a href="http://twitter.com/jem_nz" class="twitter-follow-button"
+data-show-count="false">Follow @jem_nz</a>
+<script src="http://platform.twitter.com/widgets.js"
+type="text/javascript"></script>
+~~~
 
-== Goals
-- Simple, consistent syntax.
-- $\mbox{\LaTeX}$ [latex.html equation support].
-- [tables.html Table support].
-- Portability. The (single) jemdoc [http://www.python.org/ Python] file \+
-  single css file \+ your input file {{&rarr;}} html.
-- Based on [http://www.w3.org/Style/CSS/ CSS] so formatting specifics are
-  independent of jemdoc.
-- Production of clean,
-  [http://validator.w3.org/check/referer
-  standards-compliant] [http://www.w3.org/TR/xhtml11/ XHTML 1.1].
-- Minimal bells and whistles, but simple fallback to raw html if required.
+== Research
+- Automatic code generation for embedded convex optimization
+- Computer modeling of convex problems
 
-== License
-Copyright \C 2007--2012 Jacob Mattingley.
+== Software
+- [http://cvxgen.com/ CVXGEN], an online tool for creating extremely fast
+  solvers
+- [http://cvxmod.net/ CVXMOD], a Python tool for convex optimization 
+- [http://jemdoc.jaboc.net/ jemdoc], a light, $\mbox{\LaTeX}$ equation
+  supporting, text-based markup language for creating websites
 
-jemdoc is free software; you can redistribute it and\/or modify it under the
-terms of the [http://www.gnu.org/licenses/gpl-3.0.html GNU General Public
-License] as published by the Free Software Foundation; either version 3 of the
-License, or (at your option) any later version.
+== Papers
+- [http://stanford.edu/~boyd/papers/code_gen_impl.html CVXGEN: A Code Generator
+  for Embedded Convex Optimization], J. Mattingley and S. Boyd,
+  /Optimization and Engineering/, 13(1):1--27, 2012
+- [http://stanford.edu/~boyd/papers/code_gen_rhc.html Code Generation for
+  Receding Horizon Control], J. Mattingley, Y. Wang and S. Boyd,
+  /Proceedings IEEE Multi-Conference on Systems and Control/, pages 985--992,
+  Yokohama, Japan, September 2010
+- [http://stanford.edu/~boyd/papers/rt_cvx_sig_proc.html Real-Time Convex
+  Optimization in Signal Processing], J. Mattingley and S. Boyd, 
+  /IEEE Signal Processing Magazine/, 27(3):50--61, May 2010
+- [http://stanford.edu/~boyd/papers/rt_cvx_opt.html Automatic Code Generation
+  for Real-Time Convex Optimization], J. Mattingley and S. Boyd,
+  chapter in /Convex Optimization in Signal Processing and Communications/, Y.
+  Eldar and D. Palomar, Eds., Cambridge University Press, 2009
 
-jemdoc is distributed in the hope that it will be useful, but WITHOUT ANY
-WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-PARTICULAR PURPOSE. See the [http://www.gnu.org/licenses/gpl-3.0.html GNU
-General Public License] for more details.
+== Talks
+- [code_gen_impl_slides.pdf *Code Generation for Embedded Convex Optimization*],
+  given at Stanford University in October 2010, and [http://www.jpl.nasa.gov/ NASA
+  JPL] and [http://www.caltech.edu/ Caltech] in November 2010.
+- [msc10-mattingley.pdf Code Generation for Receding Horizon Control],
+  given at [http://www.mei.titech.ac.jp/msc10/ IEEE MSC] in Yokohama, Japan,
+  September 2010
+- [berkeley10-mattingley.pdf Embedded Convex Optimization], given at
+  [http://embedded.eecs.berkeley.edu/seminar/ UC Berkeley] and at
+  [http://www.kuleuven.be/ KU Leuven], March 2010
+- [informs08-mattingley.pdf CVXMOD: Convex Optimization in Python], given at
+  the [http://meetings.informs.org/DC08/ INFORMS Annual Meeting] in Washington
+  DC, 2008
+
+
+== Teaching
+Instructor for:
+- Introduction to Linear Dynamical Systems
+  ([http://www.stanford.edu/class/ee263s/ EE263s]), Stanford University, Summer 2009
+- [http://www.kuleuven.be/optec/athens/2010 Embedded and Convex Optimization for
+  Control], one week course, KU Leuven, Belgium, March 2010
+
+Teaching assistant at Stanford University for:
+- Introduction to Linear Dynamical Systems
+  ([http://www.stanford.edu/class/ee263/ EE263]), Autumn 2006, 2007 and 2008
+- Linear Dynamical Systems ([http://www.stanford.edu/class/ee363/ EE363]),
+  Winter 2009
+- Convex Optimization I ([http://www.stanford.edu/class/ee364a/ EE364a]),
+  Winter 2008
+- Convex Optimization II ([http://www.stanford.edu/class/ee364b/ EE364b]),
+  Winter 2007 and Spring 2008
+
+== Education
+- Ph.D., Electrical Engineering, [http://www.stanford.edu Stanford University],
+  March 2011
+- M.S., Electrical Engineering, [http://www.stanford.edu Stanford University],
+  June 2007
+- B.E. (Hons) (First class), Electrical and Computer Engineering,
+  [http://www.canterbury.ac.nz Canterbury University], April 2005
+
+== Assorted other pages
+- [lp75.html Extremely short Matlab LP solvers] (fewer than 80 characters
+  per solver)
+- [vim.html vim:essentials], a short page describing some of the essential
+  features of the [http://www.vim.org/ vim] text editor
+- [matrixmultiply.html Matrix multiplication speeds] in C
+- Various [computationspeeds.html computation speeds] in C

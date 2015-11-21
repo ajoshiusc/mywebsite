@@ -1,0 +1,35 @@
+
+/* For bio-data  */
+#bdtable {
+    border-width: 0px;
+    border-style:none;
+}
+
+#bdtable td {
+    border-width: 0px;
+    border-style:none;
+    text-align:left;
+}
+
+#bdtable td.c1 {
+    text-align:right;
+}
+
+#bdtable td.c2 {
+    font-weight: bold; 
+    text-align:left;
+}
+
+
+/* For family  */
+#fmlytb {
+    border-width: 0px;
+    border-style:none;
+}
+
+#fmlytb td {
+    border-width: 0px;
+    border-style:none;
+    text-align:left;
+    padding-bottom:9px;
+}
