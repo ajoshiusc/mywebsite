@@ -38,6 +38,8 @@ for fl in glob.glob("*.jemdoc"):
     print (syscmd)
     os.system(syscmd)
 
+os.system(
+    "python C:\\Users\\ajoshi\\PycharmProjects\\mywebsite\\jemdoc.py -c bibtex.conf -o C:\\Users\\ajoshi\\PycharmProjects\\mywebsite\\" + out_dir + "\ research.jemdoc")
 os.chdir(pw_dir)
 distutils.dir_util.copy_tree(src_dir + "/html", out_dir, verbose=1)
 if os.path.isdir(src_dir + "/eqs"):

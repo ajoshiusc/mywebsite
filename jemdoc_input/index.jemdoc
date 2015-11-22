@@ -1,5 +1,5 @@
 # jemdoc: menu{MENU}{index.html},notime
-# jemdoc: addcss{person.css}, showsource
+# jemdoc: addcss{mysite.css}, showsource
 =Anand Joshi's Homepage
 
 ~~~
