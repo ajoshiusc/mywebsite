@@ -8,7 +8,6 @@ matlab
 build
 MANIFEST
 jo
-*.html
 stage/
 .idea/
 public_html/
