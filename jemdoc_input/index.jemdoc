@@ -1,5 +1,4 @@
 # jemdoc: menu{MENU}{index.html},notime
-# jemdoc: addcss{mysite.css}, showsource
 =Anand Joshi's Homepage
 
 ~~~
@@ -7,10 +6,11 @@
 *Anand A Joshi* \n
 Research Assistant Professor \n
 [http://neuroimage.usc.edu/ Biomedical Imaging Group] \n
+[http://dornsife.usc.edu/bci/ Brain and Creativity Institute] \n
 [http://ee.usc.edu/ Ming Hsieh Department of Electrical Engineering] \n
-[http://usc.edu/ University of Southern California] (USC) \n\n
+[http://usc.edu/ University of Southern California] \n
 
-{{e-mail: ajoshi@sipi.usc.edu }}
+{{e-mail: ajoshi at sipi dot usc dot edu }}
 
 
 

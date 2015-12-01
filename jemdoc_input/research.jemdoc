@@ -1,9 +1,6 @@
-# jemdoc: menu{MENUresearch}{research.html},fwtitle,notime,addcss{bibover.css},addjs{biboverMini},addcss{talk_tooltip.css}
-
-##
+# jemdoc: menu{MENUresearch}{research.html},notime,addcss{bibover.css},addjs{biboverMini},addcss{talk_tooltip.css}
 = Anand Joshi -- Research
 
-# == Research Interest
 My research is geared towards development of mathematical and computational methods for brain signal and image analysis.
 Recent advances in Neuroimaging have allowed researchers to study the brain in-vivo by imaging its structures and functions.
 Various imaging modalities such as Magnetic resonance imaging (MRI), functional Magnetic Resonance Imaging (fMRI),
@@ -19,5 +16,3 @@ performing registration and subsequent signal processing of anatomical and funct
 
 == Publications
 # includeraw{publist.html}
-
-# jemdoc: addcss{bibtex.css}
